@@ -28,12 +28,35 @@
     /// </summary>
     private void InitializeComponent()
     {
-      this.components = new System.ComponentModel.Container();
+      this.registerLabel = new System.Windows.Forms.Label();
+      this.SuspendLayout();
+      // 
+      // registerLabel
+      // 
+      this.registerLabel.AutoSize = true;
+      this.registerLabel.Font = new System.Drawing.Font("HYGothic-Extra", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.registerLabel.Location = new System.Drawing.Point(150, 30);
+      this.registerLabel.Name = "registerLabel";
+      this.registerLabel.Size = new System.Drawing.Size(212, 48);
+      this.registerLabel.TabIndex = 0;
+      this.registerLabel.Text = "회원가입";
+      // 
+      // RegisterForm
+      // 
+      this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(800, 450);
-      this.Text = "RegisterForm";
+      this.ClientSize = new System.Drawing.Size(496, 281);
+      this.Controls.Add(this.registerLabel);
+      this.Name = "RegisterForm";
+      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+      this.Text = "회원가입";
+      this.ResumeLayout(false);
+      this.PerformLayout();
+
     }
 
     #endregion
+
+    private System.Windows.Forms.Label registerLabel;
   }
 }
