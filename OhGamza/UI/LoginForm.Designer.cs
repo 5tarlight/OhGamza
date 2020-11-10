@@ -28,20 +28,36 @@
     /// </summary>
     private void InitializeComponent()
     {
+      this.LoginTitle = new System.Windows.Forms.Label();
       this.SuspendLayout();
+      // 
+      // LoginTitle
+      // 
+      this.LoginTitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
+      this.LoginTitle.AutoSize = true;
+      this.LoginTitle.Font = new System.Drawing.Font("HYGothic-Extra", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.LoginTitle.Location = new System.Drawing.Point(162, 30);
+      this.LoginTitle.Name = "LoginTitle";
+      this.LoginTitle.Size = new System.Drawing.Size(164, 48);
+      this.LoginTitle.TabIndex = 0;
+      this.LoginTitle.Text = "로그인";
       // 
       // 로그인
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(800, 450);
+      this.ClientSize = new System.Drawing.Size(496, 281);
+      this.Controls.Add(this.LoginTitle);
       this.Name = "로그인";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "LoginForm";
+      this.Text = "로그인";
       this.ResumeLayout(false);
+      this.PerformLayout();
 
     }
 
     #endregion
+
+    private System.Windows.Forms.Label LoginTitle;
   }
 }
