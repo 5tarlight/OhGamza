@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OhGamza
+namespace OhGamza.UI
 {
-  public partial class Form1 : Form
+  public partial class 로그인 : Form
   {
-    public Form1()
+    public 로그인()
     {
       InitializeComponent();
     }
